@@ -53,10 +53,12 @@ packages:
   crop_your_image:
     dependency: "direct main"
     description:
-      name: crop_your_image
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.0+1"
+      path: "."
+      ref: "bugfix/unit_test"
+      resolved-ref: "8e34a1f8adbd751a07d6b7f25664c3920d8677c1"
+      url: "https://github.com/YoshihideSogawa/crop_your_image"
+    source: git
+    version: "0.7.2"
   crypto:
     dependency: transitive
     description:
@@ -214,4 +216,3 @@ packages:
     version: "6.1.0"
 sdks:
   dart: ">=2.17.0 <3.0.0"
-  flutter: ">=1.17.0"

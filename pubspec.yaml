@@ -14,6 +14,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   crop_your_image: ^0.6.0
 
+dependency_overrides:
+  crop_your_image:
+    git:
+      url: https://github.com/YoshihideSogawa/crop_your_image
+      ref: bugfix/unit_test
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
